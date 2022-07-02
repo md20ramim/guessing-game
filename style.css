@@ -1,0 +1,77 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
+.card
+{
+    width: 32rem;
+    height: 20rem;
+    border-radius: 0.6rem;
+    padding: 1rem;
+    color: white;
+    background-color:rgb(2,160,245);
+    box-shadow: 0.1rem 0.1rem 0.1rem #222,-0.1rem 0 0.1rem #222;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s;
+    font-weight: 400;
+}
+#guess
+{
+    width: 55%;
+    border: 0.1rem solid;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    color: white;
+    background-color:rgb(4,117,238);
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+#check
+{
+    border: 0.1rem solid;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+    color: #000;
+    background-color:rgb(4,117,238);
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+.buttons
+{
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+#check:hover
+{
+    background-color: #fff;
+}
+.card:hover
+{
+    box-shadow: 0.2rem 0.2rem 0.2rem #222,-0.2rem 0 0.1rem #222;
+}
+.card-title
+{
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+}
+p
+{
+    text-align: center;
+}
+.large-text
+{
+    font-size: 1.5rem;
+    color: bisque;
+}
